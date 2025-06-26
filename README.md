@@ -67,7 +67,7 @@ Update contact_me.php to handle email notifications
 markdown
 Copy
 Edit
-![Home Page]("C:\xampp\htdocs\House Rental System\House Rental System\assets\img\SHRS.png")
+![Home Page](:\xampp\htdocs\House Rental System\House Rental System\assets\img\SHRS.png)
 🧪 Testing
 Browse through pages (Home, Listings, Contact)
 
