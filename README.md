@@ -30,10 +30,6 @@ Before you begin, ensure you have:
    git clone https://github.com/NaveenShivnathVerma/House-Rental-System.git
 Move to XAMPP’s htdocs directory
 
-batch
-Copy
-Edit
-xcopy "House-Rental-System" "C:\xampp\htdocs\House-Rental-System" /E /I
 Import the database
 
 Open phpMyAdmin → choose your database → “Import” → select database.sql if provided
@@ -50,8 +46,6 @@ Run the application
 
 Start Apache & MySQL in XAMPP
 
-Visit: http://localhost/House-Rental-System/
-
 🧑‍💻 Usage
 Register or login as an owner or user
 
@@ -61,13 +55,7 @@ Users can browse listings and contact owners via form
 
 Update contact_me.php to handle email notifications
 
-📸 Screenshots
-(Optional: Save screenshots in assets/images/)
 
-markdown
-Copy
-Edit
-![Home Page](:\xampp\htdocs\House Rental System\House Rental System\assets\img\SHRS.png)
 🧪 Testing
 Browse through pages (Home, Listings, Contact)
 
