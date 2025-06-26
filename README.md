@@ -1,85 +1,107 @@
-# House Rental System
+# 🏠 House Rental System
 
-A simple web-based system to list, search, and manage rental properties with user authentication and contact forms.
+A simple, web‑based system for managing rental property listings — complete with user authentication and contact forms, built using PHP, MySQL, and Bootstrap.
 
-## 🔎 Overview
-- Built with PHP, MySQL, HTML/CSS (Bootstrap).
-- Enables property owners to post listings.
-- Allows users to browse and contact owners.
+## 📌 About the Project
+This House Rental System allows property owners to post, manage, and display rental listings, and lets users browse and contact owners securely. It's a useful tool to learn full-stack web development with PHP and MySQL.
 
-## ⚙️ Getting Started
+---
 
-### Prerequisites
-- PHP ≥ 7.4
-- MySQL / MariaDB
-- XAMPP installed (Apache, PHP, MySQL)
+## 🛠️ Built With
+- **PHP** ≥ 7.4  
+- **MySQL / MariaDB**  
+- **Bootstrap** (HTML/CSS)  
+- **XAMPP** (for Apache + PHP + MySQL)
 
-### Installation
-1. Clone the repo:
+---
+
+## ✅ Prerequisites
+Before you begin, ensure you have:
+- XAMPP installed (includes Apache, PHP, MySQL)
+- PHP 7.4 or higher
+- MySQL or MariaDB (via XAMPP)
+
+---
+
+## 🚀 Installation
+
+1. **Clone the repository**  
    ```bash
    git clone https://github.com/NaveenShivnathVerma/House-Rental-System.git
-Copy to XAMPP htdocs:
+Move to XAMPP’s htdocs directory
+
+batch
+Copy
+Edit
+xcopy "House-Rental-System" "C:\xampp\htdocs\House-Rental-System" /E /I
+Import the database
+
+Open phpMyAdmin → choose your database → “Import” → select database.sql if provided
+
+Or manually create tables if not
+
+Configure database connection
+
+Open config.php, or locate mysqli_connect(...)
+
+Set host, username, password, and database_name
+
+Run the application
+
+Start Apache & MySQL in XAMPP
+
+Visit: http://localhost/House-Rental-System/
+
+🧑‍💻 Usage
+Register or login as an owner or user
+
+Owners can add/edit/delete listings
+
+Users can browse listings and contact owners via form
+
+Update contact_me.php to handle email notifications
+
+📸 Screenshots
+(Optional: Save screenshots in assets/images/)
+
+markdown
+Copy
+Edit
+![Home Page]("C:\xampp\htdocs\House Rental System\House Rental System\assets\img\SHRS.png")
+🧪 Testing
+Browse through pages (Home, Listings, Contact)
+
+Submit form entries and check email notifications
+
+Add a sample rental and confirm it appears
+
+🤝 Contributing
+Fork this repo
+
+Create a feature branch:
 
 bash
 Copy
 Edit
-xcopy "House-Rental-System" "C:\xampp\htdocs\House-Rental-System" /E /I
-MySQL database:
+git checkout -b feature-name
+Commit your work:
 
-Import database.sql (agar available ho) via phpMyAdmin.
-
-Otherwise manually create database & tables.
-
-Configure database connection in PHP:
-Edit config.php agar hai, ya mysqli_connect() keywords ke andar host, username, password, database name fill karein.
-
-Start Apache & MySQL through XAMPP, then open:
-
-arduino
+bash
 Copy
 Edit
-http://localhost/House-Rental-System/
-🖥️ Usage
-Register/login for owner or user.
-
-Owners: add/edit/delete property listings.
-
-Users: browse & contact property owners.
-
-Modify contact_me.php to receive email notifications.
-
-🧪 Testing
-Visit various pages to ensure they load.
-
-Test form submissions.
-
-Add sample property and verify it shows.
-
-📸 Screenshots
-(Optional: add screenshots in assets/images/ then include: )
-
-md
-Copy
-Edit
-![Home Page](assets/images/home.png)
-🤝 Contributing
-Fork the repo.
-
-Create a feature branch: git checkout -b feature-name
-
-Commit and push: git push origin feature-name
-
-Make a pull request.
+git add .
+git commit -m "Add awesome feature"
+git push origin feature-name
+Open a Pull Request for review
 
 🧭 Roadmap
-Add user roles (admin panel).
+Add user roles and admin dashboard
 
-Improve UI/UX (Bootstrap v5).
+Upgrade UI to Bootstrap 5
 
-Add image upload for properties.
-
-📄 License
-This project is under the MIT License. See LICENSE for details.
+Enable image uploads for listings
 
 📬 Contact
-Naveen Shivnath Verma – GitHub – feel free to reach out!
+Naveen Shivnath Verma
+GitHub Profile — feel free to reach out!
+
